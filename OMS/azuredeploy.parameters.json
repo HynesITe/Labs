@@ -1,0 +1,25 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccount": {
+      "value": "myStorageAccount"
+    },
+    "adminUsername": {
+      "value": "ITCampAdmin"
+    },
+    "publicDNSName": {
+      "value": "myDnsName"
+    },
+    "workspaceId" : {
+        "value": "MyWorkspaceID"
+    },
+    "workspaceKey" : {
+        "value": "MyWorkspaceKey"
+    },
+    "assetlocation": {
+      "value": "https://github.com/HynesIte/Labs/raw/master"
+    }
+  }
+}
+
